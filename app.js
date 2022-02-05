@@ -51,7 +51,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://hayden-admin:BearEctor@cluster0.2miet.mongodb.net/mern?retryWrites=true&w=majority"
+    "#"
   )
   .then(() => {
     app.listen(5000);
